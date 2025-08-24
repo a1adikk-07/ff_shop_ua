@@ -1,0 +1,301 @@
+:root {
+    --buttons-color: #ff0000;
+    --bg-cards-color: #A30000;
+    --bg-button-color: #a30000c9;
+    --header-footer-def-color: #6b0000;
+    --section-bg-color: #ffdede;
+    --white-color: #fff;
+    --price-title: #79bfff;
+    --price-text: #b7dcff;
+}
+
+/*================= HEADER ===============*/
+
+.header__ff{
+    padding: 28px 88px;
+    display: flex;
+    background-color: var(--header-footer-def-color);
+        background-image: url(/images/gamepad.png);
+        background-size: cover;
+        box-shadow: 5px 0 40px 1px #6b0000;
+}
+
+.header__div {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+}
+
+.header__menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts__menu{
+    display: flex;
+    gap: 28px;
+    list-style-type: none;
+    
+}
+
+.contact__link {
+    font-size: 24px;
+    font-weight: 450;
+    color: var(--bg-cards-color);
+    transition: 600ms;
+}
+
+.contact__link:hover {
+    color: var(--buttons-color);
+}
+
+.sub__div {
+    width: 100%;
+    padding-top: 180px;
+    padding-bottom: 235px;
+    margin: 0;
+}
+
+.sub__h{
+    font-size: 50px;
+    text-align: center;
+    color: var(--white-color);
+    margin-bottom: 80px;
+}
+
+.button__div {
+    max-width: 340px;
+    background-color: var(--bg-button-color);
+    padding: 26px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+    transition: 600ms;
+}
+
+.button__div:hover {
+    background-color: var(--bg-cards-color);
+}
+
+.sub__button {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 28px;
+}
+
+/* MAIN */
+
+/* .main__ff {
+    padding: 0px 60px 0px 60px;
+} */
+
+.section__title {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.section{
+    margin-top: 120px;
+}
+
+/* SECTION 1 */
+
+.about__us {
+    padding: 0 180px;
+}
+
+.about__us__div {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about__us__img {
+    border-radius: 20%;
+}
+
+.about__us__p {
+    font-size: 34px;
+    padding-left: 40px;
+}
+
+/* SECTION 2 */
+
+.how__it__works {
+    background-color: var(--section-bg-color);
+    padding-top: 1px;
+    padding-bottom: 80px;
+}
+
+.how__it__works__list {
+    text-align: center;
+    list-style-type: none;
+}
+
+.how__it__works__li {
+    margin-bottom: 60px;
+}
+
+.how__it__works__p {
+    font-size: 28px;
+}
+
+/* SECTION 3 */
+
+.price__section {
+    margin: 0 200px;
+}
+
+.price__div {
+    display: flex;
+    background-color: #195dac;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 25px;
+}
+
+.price__img__div {
+    width: 600px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.vb__img {
+    border-radius: 20px;
+    background-image: url(/images/img.png);
+            background-size: cover;
+}
+
+.gift__img {
+        border-radius: 20px;
+    background-image: url(/images/gift.jpg);
+            background-size: cover;
+}
+
+.price__h {
+    font-size: 42px;
+    margin-left: 30px;
+    color: var(--price-title);
+}
+
+.price__list {
+    list-style-type: none;
+}
+
+.price__li {
+    font-size: 24px;
+    color: var(--price-text);
+}
+
+/* SECTION 4 */
+
+.our__team {
+    background-color: var(--section-bg-color);
+    padding: 1px 140px 60px 140px;
+    }
+
+.our__team__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.our__team__li {
+    border-radius: 30px;
+    background-color: var(--bg-cards-color);
+}
+
+.worker__img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.worker__info {
+    text-align: center;
+    padding: 16px;
+}
+
+.worker__name {
+    font-size: 38px;
+    color: var(--section-bg-color);
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.worker__role {
+    font-size: 14px;
+    color: var(--white-color);
+}
+
+.contact__div {
+    background-color: var(--buttons-color);
+    padding: 12px;
+    border-radius: 20px;
+    transition: 800ms;
+}
+
+.worker__contact {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.contact__div:hover {
+    background-color: var(--header-footer-def-color);
+}
+
+.footer__ff {
+    padding: 80px 160px 10px 160px;
+    background-color: var(--header-footer-def-color);
+}
+
+.footer__text {
+    font-size: 28px;
+    color: var(--section-bg-color);
+}
+
+.footer__master__div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__network_h {
+    color: var(--section-bg-color);
+    font-size: 24px;
+    margin-left: 34px;
+}
+
+.footer__soc__list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.footer_li {
+list-style: none;
+    background-color: var(--section-bg-color);
+    border-radius: 30%;
+    padding: 8px;
+    transition: 600ms;
+}
+
+.footer_li:hover {
+    background-color: var(--buttons-color);
+    border-radius: 50%;
+}
+
+.made__in {
+    margin-top: 70px;
+    display: block;
+    text-align: center;
+}
+
+.made__in__p {
+    color: #ffc0c0c0;
+    font-size: 12px;
+}
