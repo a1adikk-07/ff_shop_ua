@@ -11,36 +11,6 @@
 
 /*================= HEADER ===============*/
 
-@media screen and (min-width: 1158px) {
-    .header__ff {
-        padding: 28px 88px;
-    }
-
-    .contacts__menu {
-        display: flex;
-        gap: 28px;
-    }
-
-    .contact__link {
-        font-size: 24px;
-        font-weight: 450;
-        padding: 5px 15px;
-    }
-
-    .sub__h{
-        font-size: 50px;
-    }
-
-    .button__div {
-        max-width: 340px;
-        padding: 26px;
-    }
-
-    .sub__button {
-        font-size: 28px;
-    }
-}
-
 @media screen and (min-width: 768px) {
     .header__ff {
         padding: 28px 58px;
@@ -68,6 +38,36 @@
 
     .sub__button {
         font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .header__ff {
+        padding: 28px 88px;
+    }
+
+    .contacts__menu {
+        display: flex;
+        gap: 28px;
+    }
+
+    .contact__link {
+        font-size: 24px;
+        font-weight: 450;
+        padding: 5px 15px;
+    }
+
+    .sub__h{
+        font-size: 50px;
+    }
+
+    .button__div {
+        max-width: 340px;
+        padding: 26px;
+    }
+
+    .sub__button {
+        font-size: 28px;
     }
 }
 
@@ -155,18 +155,6 @@
     padding: 0px 60px 0px 60px;
 } */
 
-@media screen and (min-width: 1158px) {
-    .section__title {
-        font-size: 44px;
-        margin-top: 100px;
-        margin-bottom: 80px;
-    }
-
-    .section {
-        margin-top: 120px;
-    }
-}
-
 @media screen and (min-width: 768px) {
     .section__title {
         font-size: 32px;
@@ -179,6 +167,20 @@
     }
 }
 
+@media screen and (min-width: 1158px) {
+    .section__title {
+        font-size: 44px;
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+
+    .section {
+        margin-top: 120px;
+    }
+}
+
+
+
 .section__title {
     text-align: center;
 }
@@ -186,6 +188,17 @@
 
 
 /* SECTION 1 */
+
+@media screen and (min-width: 768px) {
+    .about__us {
+        padding: 0 60px;
+    }
+
+    .about__us__p {
+        font-size: 24px;
+        padding-left: 30px;
+    }
+}
 
 @media screen and (min-width: 1158px) {
     .about__us {
@@ -198,16 +211,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .about__us {
-        padding: 0 60px;
-    }
 
-    .about__us__p {
-        font-size: 24px;
-        padding-left: 30px;
-    }
-}
 
 .about__us__div {
     display: flex;
@@ -223,6 +227,16 @@
 
 /* SECTION 2 */
 
+@media screen and (min-width: 768px) {
+    .how__it__works__li {
+        margin-bottom: 60px;
+    }
+
+    .how__it__works__p {
+        font-size: 20px;
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .how__it__works__li {
         margin-bottom: 60px;
@@ -233,15 +247,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .how__it__works__li {
-        margin-bottom: 60px;
-    }
 
-    .how__it__works__p {
-        font-size: 20px;
-    }
-}
 
 .how__it__works {
     background-color: var(--section-bg-color);
@@ -256,6 +262,43 @@
 
 /* SECTION 3 */
 
+@media screen and (min-width: 768px) {
+    .price__section {
+        margin: 0 120px;
+        text-align: center;
+    }
+
+    .vb__img {
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(/images/img.png);
+        background-size: cover;
+    }
+
+    .gift__img {
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(/images/gift.jpg);
+        background-size: cover;
+    }
+
+    .price__div {
+        display: block;
+    }
+
+    .price__img__div {
+        width: 100%;
+    }
+
+    .price__h {
+        font-size: 42px;
+    }
+
+    .price__li {
+        font-size: 24px;
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .price__section {
         margin: 0 200px;
@@ -266,12 +309,14 @@
     }
 
 .vb__img {
+    height: 440px;
     border-radius: 20px;
     background-image: url(/images/img.png);
     background-size: cover;
 }
 
 .gift__img {
+    height: 660px;
     border-radius: 20px;
     background-image: url(/images/gift.jpg);
     background-size: cover;
@@ -291,42 +336,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .price__section {
-        margin: 0 120px;
-        text-align: center;
-    }
 
-.vb__img {
-    height: 300px;
-    border-radius: 20px;
-    background-image: url(/images/img.png);
-    background-size: cover;
-}
-
-.gift__img {
-        height: 300px;
-    border-radius: 20px;
-    background-image: url(/images/gift.jpg);
-    background-size: cover;
-}
-
-    .price__div {
-        display: block;
-    }
-
-    .price__img__div {
-        width: 100%;
-    }
-
-    .price__h {
-        font-size: 42px;
-    }
-
-    .price__li {
-        font-size: 24px;
-    }
-}
 
 .price__div {
     background-color: #195dac;
@@ -357,6 +367,37 @@
 
 /* SECTION 4 */
 
+@media screen and (min-width: 768px) {
+    .our__team {
+        padding: 1px 100px 60px 100px;
+        margin: 0;
+    }
+
+    .our__team__list {
+        display: block;
+        text-align: center;
+    }
+
+    .our__team__li {
+        margin: 0 auto;
+        width: 300px;
+        margin-bottom: 30px;
+
+    }
+
+    .worker__name {
+        font-size: 38px;
+    }
+
+    .worker__role {
+        font-size: 14px;
+    }
+
+    .worker__contact {
+        font-size: 20px;
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .our__team {
         padding: 1px 140px 60px 140px;
@@ -380,36 +421,6 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .our__team {
-        padding: 1px 100px 60px 100px;
-        margin: 0;
-    }
-
-    .our__team__list {
-        display: block;
-        text-align: center;
-    }
-
-    .our__team__li {
-        margin: 0 auto;
-        width: 300px;
-        margin-bottom: 30px;
-        
-    }
-
-        .worker__name {
-            font-size: 38px;
-        }
-    
-        .worker__role {
-            font-size: 14px;
-        }
-    
-        .worker__contact {
-            font-size: 20px;
-        }
-    }
 
 .our__team {
     background-color: var(--section-bg-color);
@@ -463,20 +474,7 @@
 
 /* FOOTER */
 
-@media screen and (min-width: 1158px) {
-    .footer__ff {
-        padding: 80px 160px 10px 160px;
-    }
 
-    .footer__text {
-        font-size: 28px;
-    }
-
-    .footer__network_h {
-        font-size: 24px;
-        margin-left: 34px;
-    }
-}
 
 @media screen and (min-width: 768px) {
     .footer__ff {
@@ -490,6 +488,21 @@
     .footer__network_h {
         font-size: 18px;
         margin-left: 42px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .footer__ff {
+        padding: 80px 160px 10px 160px;
+    }
+
+    .footer__text {
+        font-size: 28px;
+    }
+
+    .footer__network_h {
+        font-size: 24px;
+        margin-left: 34px;
     }
 }
 
