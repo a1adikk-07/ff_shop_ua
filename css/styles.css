@@ -74,7 +74,7 @@
 .header__ff{
     display: flex;
     background-color: var(--header-footer-def-color);
-        background-image: url(/images/gamepad.png);
+        background-image: url(../images/gamepad.png);
         background-size: cover;
         box-shadow: 5px 0 40px 1px #6b0000;
 }
@@ -271,14 +271,14 @@
     .vb__img {
         height: 300px;
         border-radius: 20px;
-        background-image: url(/images/img.png);
+        background-image: url(../images/img.png);
         background-size: cover;
     }
 
     .gift__img {
         height: 300px;
         border-radius: 20px;
-        background-image: url(/images/gift.jpg);
+        background-image: url(../images/gift.jpg);
         background-size: cover;
     }
 
@@ -311,14 +311,14 @@
 .vb__img {
     height: 440px;
     border-radius: 20px;
-    background-image: url(./images/img.png);
+    background-image: url(../images/img.png);
     background-size: cover;
 }
 
 .gift__img {
     height: 660px;
     border-radius: 20px;
-    background-image: url(/images/gift.jpg);
+    background-image: url(../images/gift.jpg);
     background-size: cover;
 }
 
