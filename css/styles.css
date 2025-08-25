@@ -254,7 +254,7 @@
 
     .about__us__p {
         font-size: 24px;
-        padding-left: 30px;
+        padding-left: 30px;text-align: start;
     }
 }
 
@@ -270,12 +270,13 @@
     .about__us__p {
         font-size: 34px;
         padding-left: 40px;
+        text-align: start;
     }
 }
 
 .about__us__div {
     margin: 0 auto;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .about__us__img {
@@ -417,11 +418,12 @@
 
 @media screen and (min-width: 1158px) {
     .price__section {
-        margin: 0 200px;
+        margin: 0 240px;
     }
 
     .price__div {
         display: flex;
+        text-align: start;
     }
 
 .vb__img {
@@ -443,7 +445,6 @@
     }
 
     .price__h {
-        margin-left: 30px;
         font-size: 42px;
     }
 
@@ -649,6 +650,7 @@
 
         .footer__master__div {
             display: flex;
+            text-align: start;
         }
 
     .footer__text {
@@ -656,8 +658,9 @@
     }
 
     .footer__network_h {
+        margin-top: 0;
         font-size: 18px;
-        margin-left: 42px;
+        /* margin-left: 42px; */
     }
 }
 
@@ -668,6 +671,7 @@
 
     .footer__master__div {
         display: flex;
+        text-align: start;
     }
 
     .footer__text {
@@ -675,8 +679,8 @@
     }
 
     .footer__network_h {
+        margin: 0;
         font-size: 24px;
-        margin-left: 34px;
     }
 }
 
